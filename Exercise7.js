@@ -29,14 +29,4 @@ for(var i = 1; i<=5; i++){
     }
 
  
-    console.log('jika rows3 = 5');
-    var bintang = '';
-    
-    for(var i = 1; i<=5; i++){
-            for (var j = 1; j<=i; j++){
-                bintang = bintang +'*';
-                    
-            }        
-            console.log(bintang);    
-        bintang = '' ;  
-        }
+   
