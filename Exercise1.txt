@@ -1,0 +1,70 @@
+﻿Tugas Week 2
+
+Exercise 1
+
+1. * Algoritma :
+	1. Simpan nilai “massa benda” dengan nilai 600 kg
+	2. Simpan nilai “percepatan benda” dengan nilai 2 m/s2
+	3 Simpan nilai “resultan gaya” tanpa diberikan nilai
+	4 calculate “massa benda” dikali“percepatan benda”
+	5. Simpan hasil perhitungan sebelumnya de dalam “resultan gaya”
+	6.Display “resultan gaya”
+     * Pseudocode :
+ 	Store “massa benda” with 600 
+ 	Store “percepatan benda” with 2
+ 	Store “resultan gaya” with any value
+
+ 	Calculate “massa benda” times “percepatan benda”
+ 	Set “resultan gaya” with previous calculation
+ 	Display “resultan gaya”
+ 
+2.   * Algoritma :
+	1. Simpan "tahun" tanpa diberikan nilai (diisi apapun)
+	2. Jika sisa bagi "tahun" dibagi 400 bernilai 0, maka display "tahun","tahun kabisat",
+	3  Jika sisa hasil "tahun" dibagi 100 tidak sama dengan nol dan sisa hasil 	  bagi 		   "tahun" dibagi 400 tidak sama dengan nol dan sisa hasil bagi "tahun" dibagi 4 sama 		   dengan nol, maka display “tahun”, “tahun kabisat”.
+	4. Jika sisa hasil bagi “tahun’” dibagi 4 tidak sama dengan nol dan sisa hasil bagi 		   “tahun” dibagi 100 sama dengan nol dan sisa hasil bagi “tahun” dibagi 400 tidak sama 	    dengan nol, maka display “tahun” “bukan tahun kabisat”.
+	5.Jika sisa hasil bagi “tahun” dibagi 100 sama dengan nol dan sisa hasil bagi”tahun” 		  dibagi 400 tidak sama dengan nol, maka display “tahun” “bukan tahun kabisat”
+	
+     * Pseudocode :
+ 	Store "tahun" with any number
+ 	calculate “tahun” mod 400
+	Store “reminder”
+
+	  if “reminder” equal to 0
+	  display “tahun kabisat”
+	  else if “tahun” mod 100 “reminder” not equal to 0 and “tahun” mod 400 “reminder” not 		  equal to 0 and “tahun” mod 4 “reminder” equal to 0
+	  display “tahun kabisat”
+	  else if “tahun” mod 100 “reminder” not equal to 0 and “tahun” mod 400 	  		  “reminder” not equal to 0 and “tahun” mod 4 “reminder” not equal to 0
+	  display “bukan tahun kabisat”
+	  else if “tahun” mod 100 “reminder” equal to 0 and “tahun” mod “reminder” not equal to 0
+	  display “bukan tahun kabisat”
+
+3.	* Algoritma
+	1. Simpan nilai “baju” dengan angka 0
+	2. tambahkan nilai “baju” dengan nilai 1 selama nilai “baju” masih lebih kecil dari 20
+	3. Jika “baju” sudah sama dengan 20, maka lakukan “cuci baju”
+	
+	* Pseudocode
+	1. Store  “baju” to 0
+	2.while “baju < 20
+	3 add “baju” by 1
+	4.if “baju” equal to 20
+	5.do “cuci baju”
+4.	* Algoritma
+	1. Simpan nilai “siswa” dengan angka 1
+	2. Selama nilai “siswa” masih kecil dari 40, tambahkan “siswa” dengan angka 1
+	3. Jika “siswa” memiliki “kuku panjang” do “punishment”
+	4. jika “siswa” tidak memiliki “kuku panjang” do “reward the student”
+
+	*Pseudocode
+	 Store  “siswa” to 1
+	 Store “kuku panjang”
+	 Store “kuku pendek”
+	   while “siswa” < 40
+	   add “siswa” by 1
+	   if “siswa” equal to “kuku panjang”
+	   do “punishment”
+	   if “siswa” equal to “Kuku pendek”
+	   do “reward”
+		
+ 	
