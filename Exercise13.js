@@ -1,11 +1,11 @@
-function xo(kata) {
+function xo(str) {
     var x= 0
     var y= 0
-    for(var i=0 ; i<kata.length; i++ ){
-        if (kata[i]=='x'){
+    for(var i=0 ; i<str.length; i++ ){
+        if (str[i]=='x'){
             x+=1
         }
-        else if (kata[i]=='o'){
+        else if (str[i]=='o'){
             y+=1
         }
         }
